@@ -1,6 +1,8 @@
 mod variable;
+mod tuple_array;
 fn main() {
     variable :: variable();
+    tuple_array :: compund();
     
     println!("Hello, world!");
     //variables.......................................................

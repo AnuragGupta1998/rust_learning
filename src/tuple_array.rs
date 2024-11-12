@@ -21,4 +21,14 @@ pub fn compund(){
 
     let anu = x;
     println!("{}",anu);     // 500
+
+    //Arrays..........................................
+    let mut arr=[1,2,3,4,5];
+
+    //accessing aray elements
+    print!("{},{}",arr[0],arr[1]);
+
+    //modifying arrays
+    arr[0] = 100;
+    println!("{}",arr[0])
 }

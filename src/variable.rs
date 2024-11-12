@@ -37,5 +37,7 @@ pub fn variable() {
  
      //String............................................
      let greeting="Hello Anurag Welcome To The Rust World";
+     let greeting_2=String::from("Anurag is learning Rust");
      println!("{}",greeting);
+     println!("{}",greeting_2);
 }
